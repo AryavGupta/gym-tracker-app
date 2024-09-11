@@ -81,3 +81,6 @@ backend/gym-progress-d1b0c-firebase-adminsdk-32c6j-17ef0124c4.json
 
 # Ignore all files containing 'firebase-adminsdk' in their name (optional, for future-proofing)
 **/firebase-adminsdk*.json
+
+
+frontend/src/firebase.js
