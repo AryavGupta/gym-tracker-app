@@ -1,75 +1,70 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# GymTracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# gym-tracker-app
+## Description
 GymTracker is a comprehensive web application designed to help fitness enthusiasts track, analyze, and improve their workout routines. Built with React and Firebase, this app offers a user-friendly interface for logging workouts and provides in-depth analytics to monitor progress over time.
->>>>>>> 308b40c98824f4314f09e69f1659dbd8996a290f
+
+## Features
+- **User Authentication**: Secure signup and login functionality with email verification.
+- **Workout Logging**: Easy-to-use interface for recording exercises, sets, reps, and weights.
+- **Analytics Dashboard**: Visual representations of workout data, including progress charts for different muscle groups.
+- **Performance Scoring**: Unique algorithm to calculate overall fitness performance based on volume, frequency, balance, progressive overload, and personal records.
+- **Customizable Time Periods**: Analyze progress over various time frames (week, month, year, or custom periods).
+- **Responsive Design**: Seamless experience across desktop and mobile devices.
+
+## Technologies Used
+- Frontend: React.js, Recharts for data visualization
+- Backend: Firebase (Authentication, Firestore)
+- Styling: Tailwind CSS, shadcn/ui components
+- State Management: React Hooks
+- Routing: React Router
+
+## Installation
+1. Clone the repository
+   ```
+   git clone https://github.com/AryavGupta/gym-tracker-app.git
+   ```
+2. Navigate to the project directory
+   ```
+   cd gym-tracker-app
+   ```
+3. Install dependencies
+   ```
+   npm install
+   ```
+4. Set up environment variables
+   - Create a `.env` file in the root directory
+   - Add your Firebase configuration (see `.env.example` for required variables)
+5. Start the development server
+   ```
+   npm start
+   ```
+
+## Usage
+After installation, you can:
+1. Sign up for a new account or log in
+2. Add new workouts from the dashboard
+3. View your workout history and analytics
+4. Track your progress over time using the analytics page
+
+## Contributing
+Contributions to GymTracker are welcome! Please follow these steps:
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+
+## Contact
+Aryav Gupta - aryavgupta2005@gmail.com
+
+Project Link: [https://github.com/AryavGupta/gym-tracker-app](https://github.com/AryavGupta/gym-tracker-app)
+
+## Acknowledgements
+- [React.js](https://reactjs.org/)
+- [Firebase](https://firebase.google.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [shadcn/ui](https://ui.shadcn.com/)
+- [Recharts](https://recharts.org/)
