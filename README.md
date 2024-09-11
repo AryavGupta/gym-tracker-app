@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# gym-tracker-app
+GymTracker is a comprehensive web application designed to help fitness enthusiasts track, analyze, and improve their workout routines. Built with React and Firebase, this app offers a user-friendly interface for logging workouts and provides in-depth analytics to monitor progress over time.
+>>>>>>> 308b40c98824f4314f09e69f1659dbd8996a290f
